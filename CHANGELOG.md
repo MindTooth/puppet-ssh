@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [11.0.0]
+## [11.0.0] - 2023-07-03
 
 ### Removed
 
@@ -21,14 +21,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - add Debian 12 as supported OS
 
-## [10.2.0]
+## [10.2.0] - 2023-05-26
 
 ### Changed
 
 - bump puppetlabs/concat to < 9.0.0 (#352)
 - Replace deprecated functions (#350)
 
-## [10.1.0]
+## [10.1.0] - 2023-04-15
 
 ### Added
 
@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix for service name on latest versions of opensuse. (#343)
 
-## [10.0.0]
+## [10.0.0] - 2022-10-31
 
 ### Added
 
@@ -59,7 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix parameter lookup for `ssh::server` and `ssh::client` (#331)
 
-## [9.0.0]
+## [9.0.0] - 2022-03-25
 
 ### Added
 
@@ -69,25 +69,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - "hostkeys.pp" isn't marked private anymore (#317)
 
-## [8.0.0]
+## [8.0.0] - 2021-09-02
 
 ### Changed
 
 - update path to sftp server on Gentoo (#315, breaking change)
 
-## [7.0.2]
+## [7.0.2] - 2021-08-26
 
 ### Added
 
 - allow stdlib < 9.0.0 (#314)
 
-## [7.0.1]
+## [7.0.1] - 2021-08-14
 
 ### Fixed
 
 - ssh_config: Don't populate options that are set to undef (#312)
 
-## [7.0.0]
+## [7.0.0] - 2021-06-18
 
 ### Fixed
 
@@ -102,13 +102,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Dropped support for puppet 4 and 5 (Breaking Change)
 
-## [6.2.0]
+## [6.2.0] - 2020-05-12
 
 ### Changed
 
 - support older facter versions (#293)
 
-## [6.1.0]
+## [6.1.0] - 2020-02-08
 
 ### Fixed
 
@@ -123,7 +123,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - document exclusion of interfaces and ipaddresses within hostkeys.pp (#267)
 - add parameter to use trusted facts to hostkeys.pp (#226)
 
-## [6.0.0]
+## [6.0.0] - 2019-06-11
 
 ### Fixed
 
